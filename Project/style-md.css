@@ -1,0 +1,33 @@
+@media (min-width: 760px) and (max-width:1320px) {
+  h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
+
+  h6 {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .sec-padding {
+    padding-top: 40px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+
+  .new-arrivals p {
+    max-width: 400px;
+    text-align: start;
+  }
+
+  #feature {
+    align-items: center;
+    justify-content: start;
+}
+}
