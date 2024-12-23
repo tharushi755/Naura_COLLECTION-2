@@ -24,8 +24,8 @@
             <!-- Information Links Section -->
             <div class="col-12 col-md-2 col-lg-2 colum">
                 <h5 class="text-uppercase py-2 ">Information</h5>
-                <a href="#">About Us</a>
-                <a href="#">Privacy Policy</a>
+                <a href="about_us.php">About Us</a>
+                <a href="Privacy-policy.php">Privacy Policy</a>
                 <a href="#">Terms & Conditions</a>
                 <a href="#">Delivery Information</a>
                 <a href="#">Return Policy</a>
