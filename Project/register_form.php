@@ -35,7 +35,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             mysqli_stmt_execute($stmt);
 
             header('Location: login_form.php');
-            exit;
         }
     }
 }

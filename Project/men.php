@@ -44,6 +44,7 @@ if (isset($display_message)) {
                         <div class="pro-img" data-bs-toggle="modal" data-bs-target="#<?php echo $modalId; ?>">
                             <img src="Images/<?php echo $fetch_product['image']; ?>" alt="">
                         </div>
+
                         <div class="des">
                             <p class="brand-name">Naura COLLECTION</p>
                             <p><?php echo $fetch_product['name']; ?></p>

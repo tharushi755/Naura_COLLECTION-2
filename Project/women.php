@@ -41,14 +41,14 @@ if (isset($display_message)) {
                 $modalId = 'modal_' . $fetch_product['id'];
         ?>
                 <form action="" method="post">
-                    <div class="pro" >
+                    <div class="pro">
                         <div class="pro-img" data-bs-toggle="modal" data-bs-target="#<?php echo $modalId; ?>">
                             <img src="Images/<?php echo $fetch_product['image']; ?>" alt="">
                         </div>
                         <div class="des">
                             <p class="brand-name">Naura COLLECTION</p>
                             <p><?php echo $fetch_product['name']; ?></p>
-                            <h4>LKR <?php echo number_format($fetch_product['price']);?>.00</h4>
+                            <h4>LKR <?php echo number_format($fetch_product['price']); ?>.00</h4>
                         </div>
 
                         <!-- Modal -->
@@ -69,7 +69,7 @@ if (isset($display_message)) {
                                             <div class="col-6">
                                                 <p>Product Id : <?php echo $fetch_product['id']; ?></p>
                                                 <p>Product Name : <?php echo $fetch_product['name']; ?></p>
-                                                <p>Product Price : LKR <?php echo number_format($fetch_product['price']);?>.00</p>
+                                                <p>Product Price : LKR <?php echo number_format($fetch_product['price']); ?>.00</p>
                                                 <p><u>Select Your Size</u></p>
                                                 <select class="select-size" id="size" name="product_size">
                                                     <option>XS</option>

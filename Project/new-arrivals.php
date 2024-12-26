@@ -28,13 +28,13 @@ if (isset($display_message)) {
 }
 ?>
 <section id="product1" class="container-fluid sec-padding pb-0">
-    <h1>Discover the Latest Trends in Fashion</h1>
+    <h1>New Arrivals</h1>
     <p style="max-width:500px">
         Explore our New Arrivals collection, featuring fresh, stylish designs crafted to elevate your wardrobe. From chic casualwear to elegant evening outfits, find the perfect pieces to stay ahead of the fashion curve this season.
     </p>
     <div class="pro-container">
         <?php
-        $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'new arrivals men' or category = 'new arrivals women' or category = 'new arrivals kids' ");
+        $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'new arrivals men' or category = 'new arrivals women' or category = 'new arrivals kids'");
         if (mysqli_num_rows($select_products) > 0) {
             while ($fetch_product = mysqli_fetch_assoc($select_products)) {
                 $modalId = 'modal_' . $fetch_product['id'];
@@ -110,10 +110,6 @@ if (isset($display_message)) {
 
 </section>
 <!--men section end-->
-
-
-
-
 
 <?php
 include 'footer.php';

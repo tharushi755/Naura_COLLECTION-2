@@ -23,12 +23,12 @@
 
             <!-- Information Links Section -->
             <div class="col-12 col-md-2 col-lg-2 colum">
-                <h5 class="text-uppercase py-2 ">Information</h5>
+                <h5 class="text-uppercase py-2 ">Menu</h5>
+                <a href="new-arrivals.php">New Arrivals</a>
+                <a href="women.php">Women</a>
+                <a href="men.php">Men</a>
+                <a href="kids.php">Kids</a>
                 <a href="about_us.php">About Us</a>
-                <a href="Privacy-policy.php">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Delivery Information</a>
-                <a href="#">Return Policy</a>
             </div>
 
 
@@ -40,33 +40,20 @@
                 <p> (+94) 112 614 289</p>
                 <span> nauracollection@gmail.com</p>
 
-                <div class="footer-icons">
-                    <a href="#"><i class="fab fa-facebook"></i>facebook</a>
-                    <a href="#"><i class="fab fa-instagram"></i>instagram</a>
-                    <a href="#"><i class="fab fa-whatsapp"></i>whatsApp</a>
-                </div>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+                        <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                        <a href="#"><i class="fab fa-whatsapp"></i>whatsApp</a>
+                    </div>
             </div>
 
             <div class="col-12 col-md-1 col-lg-1 colum"></div>
 
             <!-- Contact Information Section -->
             <div class="col-12 col-md-3 colum px-0">
-                <h5 class="text-uppercase py-2">subscribe to newsletter</h5>
-                <form action="" class="was-validated m-0">
-                    <div class="form-check px-0 pt-2">
-                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
-                        <div class="invalid-feedback">invalid email format</div>
-                    </div>
-                </form>
-                
-
-                <div class="d-grid"><button type="submit" class="btn sub-btn btn-block mt-4">Subscribe</button>
-                </div>
-                <p class="mt-4">By subscribing, you agree to receive recurring automated promotional and
-                    personalized marketing
-                    emails (e.g. cart reminders) from us at the email used when subscribing.
-                </p>
-                <p><img class="w-100 mt-4" src="Images/Footer/4.jpg" alt="" style="max-width:250px"></p>
+                <h5 class="text-uppercase py-2">My Account</h5>
+                <a href="kids.php">Login</a>
+                <a href="about_us.php">Register</a>
             </div>
 
         </div>
